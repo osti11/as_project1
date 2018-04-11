@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.jannik.hallo.MainActivity">
+    tools:context="com.example.jannik.hallo.MainActivity"
+    tools:ignore="ExtraText">
 
     <TextView
         android:id="@+id/textV_nachricht"
@@ -21,11 +22,10 @@
         android:id="@+id/textV_farbe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@id/textV_gruen"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
-    <NumberPicker
+        <NumberPicker
         android:id="@+id/numberPicker_rot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
