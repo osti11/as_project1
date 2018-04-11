@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Hallo</string>
+    <string name="app_name">Hello</string>
+    <string name="begruessung">Hello Jannik Ostermayer</string>
+    <string name="button">show</string>
+    <string name="groesse">Font Size : %1$s</string>
+    <string name="farbe">Schriftfarbe</string>
 </resources>
